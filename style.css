@@ -7,7 +7,7 @@
 html{
     scroll-behavior: smooth;
 }
-
+/* Navigation Bar */
 .navbar {
     display: flex;
     justify-content: center;
@@ -35,6 +35,7 @@ html{
     padding: 8px 25px;
     transition: all .5s ease;
 }
+/*Adding a hover animation for the Navigation bar */
 
 .navbar ul li a:hover {
     background-color: whitesmoke;
@@ -42,7 +43,7 @@ html{
     box-shadow: 0 0 10px white;
 }
 
-
+/* Home page, Avatar picture */
 #home {
     display: flex;
     flex-direction: column;
@@ -65,7 +66,7 @@ html{
     z-index: -1;
     opacity: .8;
 }
-
+/* Main header with my name */
 .main{
     display:flex;
     flex-direction: column;
@@ -74,7 +75,7 @@ html{
     position:absolute;
     bottom: 50%;
 }
-
+/* all the headings follow the same font family */
 .headers{
     font-family: Georgia;
     font-size: 3rem;
@@ -82,7 +83,7 @@ html{
     margin: 15px 0px;
 }
 
-
+/* Button sizing and animation when you hover over on top of it */
 .button{
     padding: 10px 35px;
     border: 2px solid whitesmoke;
@@ -100,7 +101,7 @@ html{
     box-shadow: 0 0 8px whitesmoke, 0 0 12px whitesmoke, 0 0 17px whitesmoke;
     font-weight: bold;
 }
-
+/* Section for my About me */
 #aboutme{
     display: flex;
     flex-direction: column;
@@ -108,7 +109,7 @@ html{
     margin-bottom:40px;
     padding: 25px;
 }
-
+/* Picture of me */
 #picture{
     display: flex;
 }
@@ -118,20 +119,24 @@ html{
     height: 400px;
 }
 
-
+/* text for the about me part of the page */
 #introtext{
     display: flex;
     flex-direction: column;
     padding: 12px;
     text-align: justify;
+    font-family: Georgia;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #introtext h2{
     margin-bottom: 25px;
     font-size: 1.9rem;
+    font-family: Georgia;
 }
 
-
+/* Pictures of the coming soon in the portfolio section */
 #portfoliosec{
     display: flex;
     flex-direction: column;
@@ -153,7 +158,7 @@ html{
     height: 350px;
     margin: 10px;
 }
-
+/* Contact me section at the bottom of the page */
 #contactme{
     display: flex;
     box-sizing: border-box;
@@ -195,7 +200,7 @@ html{
     border: none;
     outline: none;
 }
-
+/* animation to make it have a shadow when you hover over the SEND icon */
 #send:hover{
     cursor: pointer;
     box-shadow: 0 0 12px whitesmoke;
